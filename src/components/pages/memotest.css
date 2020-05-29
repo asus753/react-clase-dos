@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    place-content: center center;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    gap: 15px 15px;
+    place-items: stretch stretch;
+}
+.item {
+    grid-row: auto;
+    grid-column: auto;
+}
+
+.front-carta{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+.back-carta{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+}
+.img-memo{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+}
+
+#manejo-del-juego{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+    margin: 2rem;
+    border: solid orange;
+    border-radius: 2rem;
+}
+
